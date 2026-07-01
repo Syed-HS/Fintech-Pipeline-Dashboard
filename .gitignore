@@ -1,0 +1,17 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Local Database & Cache files
+*.db
+.pytest_cache/
+__pycache__/
+*.pyc
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Data files containing mock or production records
+archived_duplicates.csv
